@@ -1,0 +1,26 @@
+.conteudo__principal__introducao{
+    background-image: url(/assets/img/image\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 399px;
+    width: 100%;
+}
+
+.conteudo__principal__introducao__textos{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background-color: var(--cor-verde-gradiente);
+    color: var(--cor-branca);
+    font-size: 48px;
+    font-weight: 100;
+    padding: 10px 20px;
+}
