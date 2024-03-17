@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url(/assets/css/header.css);
 @import url(/assets/css/main.css);
 
@@ -6,6 +7,7 @@
     --cor-verde: #50AA5A;
     --cor-verde-escuro: #1B4436;
     --cor-verde-gradiente: rgba(34, 82, 67, 0.8);
+    --font-quicksand: font-family: "Quicksand", sans-serif;
 }
 
 *{
@@ -15,4 +17,5 @@
 
 body{
     background-color: var(--cor-branca);
+    font-family: var(--font-quicksand);
 }

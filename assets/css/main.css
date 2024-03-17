@@ -16,11 +16,133 @@
     flex-direction: column;
     align-items: center;
 }
-
 h1{
     background-color: var(--cor-verde-gradiente);
     color: var(--cor-branca);
     font-size: 48px;
-    font-weight: 100;
+    font-family: var(--font-quicksand);
+    font-weight: 600;
     padding: 10px 20px;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    padding: 2% 3%;
+    gap: 15px;
+}
+
+.produtos__producao_de_uva, .produtos__gado_de_corte, .produtos__producao_de_laranja, .produtos__caprinos, .produtos__producao_de_ovos, .produtos__producao_de_tomate, .produtos__hortifruti {
+    width: 387px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 30px;
+}
+
+.imagem_de_fundo_uva {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/uva.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_gado {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/gado.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_laranja {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/laranja.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_caprinos {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/ovelha.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_ovos {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/uva.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_tomate {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/tomate.png);
+    opacity: 0.8;
+}
+
+.imagem_de_fundo_hortifruti {
+    width: 387px;
+    height: 248px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/alface.png);
+    opacity: 0.8;
+}
+
+.conteudo {
+    background-color: var(--cor-branca);
+    padding: 10px;
+}
+
+.paragrafo{
+    font-size: 14px;
+    padding: 20px;
+    font-family: var(--font-quicksand);
+    font-weight: 400;
+    background-color: var(--cor-branca);
+}
+
+.saiba_mais {
+    text-align: center;
+    font-family: var(--font-quicksand);
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid var(--cor-verde);
+    border-radius: 0px 0px 20px 20px;
+    color: var(--cor-branca);
+    background-color: var(--cor-verde);
 }
