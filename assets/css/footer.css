@@ -1,0 +1,17 @@
+.rodape {
+    background-color: var(--cor-verde-escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+    height: 190px;
+    color: var(--cor-branca);
+}
+
+.rodape_imagem_ifro {
+    width: 63px;
+    height: 87px;
+}
