@@ -13,6 +13,10 @@
     gap: 40px;
 }
 
+.link:hover {
+    color: pink;
+}
+
 a{
     text-decoration: none;
     color: var(--cor-branca);
